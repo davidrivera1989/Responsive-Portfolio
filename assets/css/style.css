@@ -5,6 +5,7 @@ body {
   line-height: 34px;
   background: url("../images/concrete_seamless.png");
 }
+
 * {
   box-sizing: border-box;
 }
@@ -243,3 +244,83 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 768px) {
+  body{
+   margin: 0,20px,0,20px;
+  }
+  #masthead{
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+  .main-section{
+
+    position: relative;
+    max-width: 728px;
+    margin: 0px 0px 0px 20px;
+    padding: 30px;
+    
+  }
+  .sidebar {
+    clear: both;
+    align-content: center;
+    width: 728px;
+    padding: 30px;
+    padding-bottom: 40px;
+    margin: 40px 20px;
+    margin-left: 20px;
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+   }
+   #connect{
+    max-width: 728px;
+    margin-right: 30px;
+    padding-left: 0px;
+    margin-bottom: -20px;
+    text-align: left;
+   }
+   
+}
+@media screen and (max-width: 640px){
+  }
+  #logo{
+    position: relative;
+    width: 640px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 0px 0px -20px;
+
+  }
+  nav{
+    width: 640px;
+    text-align: center;
+    padding-left: 60px;
+
+  }
+  .main-section{
+    max-width: 600px;
+    top: 40px;
+    margin-left: 20px;
+    margin-right: 30px;
+    }
+  .work{
+    width: 100%;
+    margin-left: 10px;
+  }
+  #connect{
+    max-width: 600px;
+   top: 40px;
+   }
+   .sidebar{
+    top: 20px;
+    margin-left: 20px;
+   }
+}
+
+
+
+
+
+
